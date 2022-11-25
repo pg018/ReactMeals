@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "./build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "site":"food-order-c7bb3",
+    "rewrites":[
+      {
+        "source":"**",
+        "destination":"/index.html"
+      }
+    ]
+  }
+}

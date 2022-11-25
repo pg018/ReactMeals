@@ -1,0 +1,18 @@
+.filter-meals{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    max-width: 60rem;
+    width: 90%;
+    margin: 3rem auto 1rem auto;
+}
+
+@media (max-width:768px) {
+    .filter-meals{
+        flex-direction: column;
+    }
+
+    .filter-meals button{
+        margin-bottom: 1rem;
+    }
+}

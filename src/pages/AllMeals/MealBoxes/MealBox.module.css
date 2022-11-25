@@ -1,0 +1,21 @@
+.box-meals{
+    max-width: 25rem;
+    max-height: 25rem;
+    margin:2rem auto 2rem auto;
+    width: 90%;
+}
+
+.box-meals-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-box{
+    max-width: 25rem;
+    height: 24rem;
+}
+
+.card-box:hover{
+    transform: scale(1.1);
+}

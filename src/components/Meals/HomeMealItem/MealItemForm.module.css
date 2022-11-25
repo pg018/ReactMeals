@@ -1,0 +1,9 @@
+.meal_form {
+    text-align: right;
+}
+
+.form_cart{
+    display: flex;
+    flex-direction: column;
+
+}
