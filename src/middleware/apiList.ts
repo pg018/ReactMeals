@@ -1,4 +1,4 @@
-export const APIKey = 'AIzaSyDA48W1eJEQ5gjASSk83vj_hPIWDDw4I1c';
+export const APIKey = process.env.APIKey;
 
 export enum AllowedHttpMethods{
     get = 'get',
