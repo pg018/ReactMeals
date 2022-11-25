@@ -44,11 +44,3 @@ function App() {
 
 export default App;
 
-
-/*
-Errors To Handle -- 
-    Individual Cart Quantity not getting updated instantly
-    Cart State Lost when refreshing
-    In Homepage, Shuffle the meals
-    Cannot go back to login when logged in
-*/
